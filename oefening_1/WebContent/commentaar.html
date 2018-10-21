@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Commentaar</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/stijlen.css">
+</head>
+<body class="bodycomment">
+	<div class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar-content">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">Dries</a>
+			</div>
+			<div class="collapse navbar-collapse" id="mynavbar-content">
+				<ul class="nav navbar-nav">
+					<li><a href="Home.html">Home</a></li>
+					<li><a href="beleving.html">Beleving</a></li>
+					<li class="active"><a href="commentaar.html">Commentaar</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<img src="images/vakantie.jpg" class="imgvakantie">
+	<div class="container" >
+		<div class="row">
+			<form class="form-horizontal col-xs-6">
+				<div class="form-group">
+					<label for="nameField" class="col-xs-2">Name</label>
+					<div class="col-xs-10">
+					 	<input type="text" class="form-control" id="nameField" placeholder="Your Name">
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="nameField" class="col-xs-2">Email</label>
+					<div class="col-xs-10">
+						<input type="email" class="form-control" id="nameField" placeholder="Your Email">
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="nameField" class="col-xs-2">Phone</label>
+					<div class="col-xs-10">
+						<input type="tel" class="form-control" id="nameField" placeholder="Your Phone Number">
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="nameField" class="col-xs-2">Description</label>
+					<div class="col-xs-10">
+						<textarea rows="4" class="form-control" id="message" placeholder="Your Comments"></textarea>
+					</div>
+				</div>
+				<div class="col-xs-push-1">
+					<button type="submit" class="btn btn-primary">Submit</button>
+					<button type="reset" class="btn btn-default">Reset</button>
+				</div>
+			</form>
+			<div class="col-xs-4 col-xs-push-2">
+				<div class="page-header" style="margin:0;">
+					<h1 style="margin:0;">Reacties</h1>
+				</div>
+				<div class="list-group">
+					<a href="#" class="list-group-item">
+						<h4>Item heading</h4>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+					</a>
+					<a href="#" class="list-group-item">
+						<h4>Item heading</h4>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-1.11.0.js" integrity="sha256-zgND4db0iXaO7v4CLBIYHGoIIudWI5hRMQrPB20j0Qw=" crossorigin="anonymous"></script>
+	<script src="js/bootstrap.js"></script>
+</body>
+</html>
